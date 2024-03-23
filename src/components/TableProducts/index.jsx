@@ -12,7 +12,6 @@ export function ProductsTable() {
     }, []); 
 
     const columns = [
-        { field: 'id', headerName: 'ID', width: 70 },
         { field: 'name', headerName: 'Produto:', width: 130 },
         { field: 'value', headerName: 'Valor:', width: 130 },
     ];
